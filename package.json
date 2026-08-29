@@ -1,0 +1,11 @@
+{
+  "name": "kubepulse-mesh",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Cloud-Native Distributed Service Mesh & Observability Telemetry Platform",
+  "main": "server/mesh/ObservabilityServer.js",
+  "scripts": {
+    "start": "node server/mesh/ObservabilityServer.js",
+    "test": "node tests/runner.js"
+  }
+}
