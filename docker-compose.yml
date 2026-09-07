@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  kubepulse-mesh:
+    build: .
+    container_name: kubepulse-mesh_app
+    ports:
+      - "6000:6000"
+    restart: always
